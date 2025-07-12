@@ -25,8 +25,7 @@ __University of Bristol__
 `2023 – 2024`
 __University of Oxford__
 - MSc in Mathematical Modelling and Scientific Computing (Distinction 79%)
-- Dissertation: "Computing Zeros and Poles of Complex Functions Numerically" (awarded
-highest mark in cohort)
+- Dissertation: "Computing Zeros and Poles of Complex Functions Numerically" (awarded highest mark in cohort)
 - Supervisors: Prof. Yuji Nakatsukasa and Dr. Irwin Zaid
 
 `2019 – 2023`
@@ -47,8 +46,7 @@ __MMSC Industrially Funded Scholarship__ (Mathematical Institute, University of 
 - Awarded based on strength of application and interview performance (£5000)
 
 __Best Final Year Project__ (University of Bristol)
-- Awarded for industrial modelling projects on ocean eddy currents (DSTL) and
-effec-tive conductivity of polycrystalline structures (Sagentia Innovation)
+- Awarded for industrial modelling projects on ocean eddy currents (DSTL) and effective conductivity of polycrystalline structures (Sagentia Innovation)
 
 `2022`
 
@@ -87,8 +85,7 @@ Ocean Eddy Current Detection, UK Civil Service mathematics and statistics commun
 
 `Summer 2023`
 __Centre for Modelling and Simulation__ (Summer Intern) -  Bristol, UK
-- Studied and developed a continuum model of a resin flow in carbon fibre and researched
-stabilisation techniques for solving hyperbolic problems using the finite element method
+- Studied and developed a continuum model of a resin flow in carbon fibre and researched stabilisation techniques for solving hyperbolic problems using the finite element method
 - Contributed to MOOSE, the Idaho National Lab FEM code
 - Developed method to speed up a FEM model of a 3D-printed part by 30%
 

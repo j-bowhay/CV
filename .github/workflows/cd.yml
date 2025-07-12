@@ -1,7 +1,6 @@
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: CD
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
@@ -35,11 +34,10 @@ jobs:
           source: ./
           destination: ./_site
       - name: HTML to PDF
-        uses: LukaszLapaj/html-to-pdf-action@master
+        uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          htmlFile: ./_site/index.html
-          outputFile: ./_site/Bowhay-CV.pdf
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          source-path: ./_site/
+          destination-path: ./_site/Bowhay-CV.pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
