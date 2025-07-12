@@ -45,7 +45,7 @@ jobs:
 
   # Deployment job
   deploy:
-    permisions:
+    permissions:
         pages: write
         id-token: write
     environment:
