@@ -38,13 +38,16 @@ jobs:
         uses: LukaszLapaj/html-to-pdf-action@master
         with:
           htmlFile: ./_site/index.html
-          outputFile: ./_site/whipp-CV.pdf
+          outputFile: ./_site/Bowhay-CV.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
+    permisions:
+        pages: write
+        id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -53,4 +56,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
