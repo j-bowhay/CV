@@ -6,7 +6,7 @@ title: Jake Bowhay CV
 PhD Student in Applied Mathematics
 
 <div id="webaddress">
-<a href="jake.bowhay@bristol.ac.uk">jake.bowhay@bristol.ac.uk</a> ◆ 
+<a href="jake.bowhay@bristol.ac.uk">jake.bowhay@bristol.ac.uk</a> |
 <a href="https://j-bowhay.github.io/">j-bowhay.github.io</a>
 </div>
 

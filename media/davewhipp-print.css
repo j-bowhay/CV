@@ -83,6 +83,9 @@ p code {
 	right: -20%;
 }
 
+li {
+	width: 80%;
+}
 
 ul {
 	position: relative;
@@ -92,19 +95,12 @@ ul {
 	/*margin-top: -0.5em;*/
 }
 
-/*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
-
-li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
 }
+
 
 li ul {
 	position: relative;
@@ -147,7 +143,6 @@ h2 {
 h3 {
 	font-size: 1em;
 	line-height: 2em;
-	color: #ccc;
 	position: relative;
 	top: 1.6em;
 	text-align: right;
@@ -167,7 +162,7 @@ a:hover {
 	margin-top: 1em;
 	position: relative;
 	left: 25%;
-	color: #ccc;
+	color: #bc412b;
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	font-size: 90%;
 }
