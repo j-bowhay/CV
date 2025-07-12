@@ -39,6 +39,8 @@ jobs:
           htmlFile: ./_site/index.html
           outputFile: ./_site/Bowhay-CV.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+      - name: Delete index.html
+        run: sudo rm ./_site/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
