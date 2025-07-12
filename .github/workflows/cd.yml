@@ -34,10 +34,11 @@ jobs:
           source: ./
           destination: ./_site
       - name: HTML to PDF
-        uses: ferdinandkeller/html-to-pdf-action@v2
+        uses: fifsky/html-to-pdf-action@master
         with:
-          source-path: ./_site/
-          destination-path: ./_site/Bowhay-CV.pdf
+          htmlFile: ./_site/index.html
+          outputFile: ./_site/Bowhay-CV.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
