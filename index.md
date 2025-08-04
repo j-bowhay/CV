@@ -68,12 +68,16 @@ Optimization, and Root Finding in SciPy"
 
 ## Talks and Presentations
 
+`2025`
+Support for the Python array API standard in SciPy, Meeting of South West RSE’s in Bristol
+
 `2023`
 Ocean Eddy Current Detection, UK Civil Service mathematics and statistics community
 
 ## Conferences
 
 `2025`
+- Gene Golub SIAM Summer School on Frontiers in Multi-Dimensional Pattern Formation
 - ESGI 187, University of Bristol
 - ICMS Graduate Modelling Camp, Edinburgh
 - Scientific Python Developers Summit, University of Washington
